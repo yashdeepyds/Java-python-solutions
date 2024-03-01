@@ -1,0 +1,12 @@
+# Python 
+
+from sys import *
+from collections import *
+from math import *
+
+def largestElement(arr: [], n: int) -> int:
+    min = arr[0]
+    for i in range(n):
+        if(min<arr[i]):
+            min=arr[i]
+    return min
